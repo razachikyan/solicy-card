@@ -1,5 +1,11 @@
 .main {
+  position: fixed;
+  top: 100px;
+  bottom: 0;
+  right: 220px;
+  left: 100px;
   padding: 40px;
+  overflow: auto;
 }
 
 .main__list {
@@ -7,6 +13,4 @@
   justify-content: left;
   gap: 40px;
   flex-wrap: wrap;
-  margin-left: 120px;
-  max-width: 900px;
 }
