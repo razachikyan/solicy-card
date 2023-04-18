@@ -1,0 +1,12 @@
+.main {
+  padding: 40px;
+}
+
+.main__list {
+  display: flex;
+  justify-content: left;
+  gap: 40px;
+  flex-wrap: wrap;
+  margin-left: 120px;
+  max-width: 900px;
+}

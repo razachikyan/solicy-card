@@ -1,0 +1,18 @@
+.instructions {
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  width: 200px;
+  border-left: 1px solid #000;
+  display: flex;
+  align-items: center;
+  z-index: 100;
+  background-color: #fff;
+  padding: 0 10px;
+}
+
+.instruct__text {
+  font-size: 20px;
+  font-weight: 600;
+}

@@ -1,0 +1,27 @@
+.header {
+  display: flex;
+  gap: 60px;
+  padding: 10px 40px;
+  border-bottom: 1px solid #000;
+  z-index: 0;
+}
+
+.header__btn {
+  padding: 20px 25px;
+  font-size: 20px;
+  font-weight: 600;
+  outline: 0;
+  border: 1px solid blue;
+  transition: all 0.15s;
+}
+
+.header__btn:hover {
+  background-color: blue;
+  color: #fff;
+}
+
+.header__btn:focus,
+.header__btn:active {
+  background-color: rgb(80, 80, 247);
+  color: #fff;
+}
