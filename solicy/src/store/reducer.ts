@@ -19,8 +19,6 @@ export type sortCardsAction = {
 export const sortCards: ActionCreator<sortCardsAction> = (
   cards: Array<CardState>
 ) => {
-  console.log(cards);
-  console.log(cards.sort((a, b) => a.num - b.num));
   return {
     type: SORT_CARDS,
     cards: cards.sort((a, b) => a.num - b.num),
